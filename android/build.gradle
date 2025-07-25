@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 //apply plugin: 'kotlin-android-extensions'
 
 android {
+    namespace = "com.araby_ai_wear_os_package.araby_ai_wear_os_package"
+
     compileSdkVersion 31
 
     sourceSets {
